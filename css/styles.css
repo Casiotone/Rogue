@@ -1,0 +1,164 @@
+body {
+    padding: 15px;
+}
+
+main {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+nav {
+  width: 1240px;
+  height: 82px;
+}
+
+nav h1 {
+    height: 23px;
+    width: 303px;
+    font-family: 'Montserrat', sans-serif;
+    /*justify-content: flex-start; this doesn't work*/
+}
+
+nav span {
+    color: #77A466;
+}
+
+.empty-nav-div {
+    height: 23px;
+    width: 430px;
+}
+
+nav ul {
+    height: 23px;
+    width: 450px;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+        margin: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #77A466;
+        font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #77A466;
+}
+
+.section-top {
+
+}
+
+.section-top img {
+    height: 288px;
+    width: 1200px;
+    border: solid 4px #77A466;
+    margin: 0px;
+}
+
+.section-top h2 {
+    height: 23px;
+    width: 522px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    color: #77A466;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.section-top p {
+    height: 65px;
+    width: 1198px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-flex h3 {
+
+}
+
+.section-thirds {
+    height: 212px;
+    width: 400px;
+}
+
+.section-thirds h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 25px;
+}
+
+#section-one {
+    border: 1px solid #DEDBDC;
+    border-left: 0;
+    padding-top: 15px;
+}
+
+#section-one ul {
+    padding: 8px;
+}
+
+#section-one ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #77A466;
+    list-style-type: none;
+    line-height: 35px;
+    margin-left: 5px;
+}
+
+#section-two {
+    border: 1px solid #DEDBDC;
+    border-left: 0;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+#section-two p {
+    font-family: 'Montserrat', sans-serif;
+    height: 120px;
+    width: 354px;
+}
+
+#section-three {
+    border: 1px solid #DEDBDC;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+ #section-three p {
+     font-family: 'Montserrat', sans-serif;
+     height: 62px;
+     width: 217px;
+     line-height: 25px;
+     margin-left: 10px;
+ }
+
+footer {
+ height: 82px;
+ width: 1202px;
+ padding-top: 20px;
+}
+
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+footer span {
+    color: #77A466;
+}
